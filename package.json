@@ -1,0 +1,27 @@
+{
+  "name": "parcel-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norf-90/parcel-template.git"
+  },
+  "author": "Oleksandr Shmatko <blacknorfolk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norf-90/parcel-template/issues"
+  },
+  "homepage": "https://github.com/norf-90/parcel-template#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}
